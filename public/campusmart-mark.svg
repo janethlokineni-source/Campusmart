@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="campusmart-gradient" x1="7" y1="6" x2="57" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9A3D"/>
+      <stop offset="0.52" stop-color="#FF6A00"/>
+      <stop offset="1" stop-color="#F04432"/>
+    </linearGradient>
+    <linearGradient id="campusmart-gloss" x1="32" y1="2" x2="32" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="19" fill="url(#campusmart-gradient)"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="18.5" stroke="#fff" stroke-opacity=".24"/>
+  <path d="M21.5 25v-4.5a10.5 10.5 0 0 1 21 0V25" stroke="#FFF9F4" stroke-width="2.8" stroke-linecap="round"/>
+  <path d="M17 25h30l-2.7 25.5H19.7L17 25Z" fill="#fff" fill-opacity=".08" stroke="#FFF9F4" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M21 34.2c3.7-1.5 7.4-1 11 1.8 3.6-2.8 7.3-3.3 11-1.8v10.2c-3.7-1.5-7.4-1-11 1.8-3.6-2.8-7.3-3.3-11-1.8V34.2Z" stroke="#FFF9F4" stroke-width="2.35" stroke-linejoin="round"/>
+  <path d="M32 36v10" stroke="#FFF9F4" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="m49 11.5 1.2 3.3 3.3 1.2-3.3 1.2L49 20.5l-1.2-3.3-3.3-1.2 3.3-1.2 1.2-3.3Z" fill="#FFF5D8"/>
+  <path d="M21 3h22a19 19 0 0 1 19 19v7c-8.3 5.1-17.8 7.7-30 7.7S10.3 34.1 2 29v-7A19 19 0 0 1 21 3Z" fill="url(#campusmart-gloss)"/>
+</svg>
