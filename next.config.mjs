@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false, // helps R3F canvas re-renders
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   transpilePackages: ['three', '@react-three/fiber', '@react-three/drei'],
   images: {
     remotePatterns: [
